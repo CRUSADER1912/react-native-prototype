@@ -4,9 +4,11 @@ import { Icon } from "native-base";
 import { InboxTabItems } from "./RootNavigator/InboxTabNavigation";
 import { Constants } from "expo";
 
+import InboxScrollableTabs from "./RootNavigator/InboxScrollableTabs";
+
 export default class InboxContainer extends React.Component {
   render() {
-    return <InboxTabItems />;
+    return <InboxScrollableTabs />;
   }
 }
 
